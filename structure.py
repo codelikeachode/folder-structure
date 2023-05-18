@@ -41,3 +41,12 @@ def generate_html_structure(folder_path):
         f.write('   </body>\n')
         f.write('</html>\n')
         
+    with open(css_file, 'w') as f:
+        f.write('/* CSS Styles */\n')
+        f.write('h1 {\n')
+        f.write('   color: blue;\n')
+        f.write('}\n')
+
+    with open(js_file, 'w') as f:
+        f.write('// JavaScript Scripts\n')
+        f.write('console.log("Hello World");\n')
