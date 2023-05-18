@@ -50,3 +50,13 @@ def generate_html_structure(folder_path):
     with open(js_file, 'w') as f:
         f.write('// JavaScript Scripts\n')
         f.write('console.log("Hello World");\n')
+
+    print(f'Successfully created folder structure in {folder_path}')
+
+if __name__ == '__main__':
+    if len(sys.argv) != 2:
+        print('Provide a folder name as an argument')
+        sys.exit(1)
+
+    folder_name = sys.argv[1]
+    generate_html_structure(folder_name)
