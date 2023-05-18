@@ -1,6 +1,18 @@
-### python script that will create a basic folder structure for an HTML, CSS, and JS project
-### and it will also create the basic files and write content to them
-### it is a way for me to practice python
+##########
+# python script that will create a basic folder structure for an HTML, CSS, and JS project
+# and it will create the basic files and write content to them
+# it is also a way for me to practice python
+##########
+
+########## 
+# save script in a file named 'structure.py'
+# open a terminal or command prompt
+# navigate to the folder where the script is saved
+# run the script with the desired folder name as an argument 
+# e.g. python3 structure.py my_project_folder
+##########
+
+
 
 import os
 import sys
